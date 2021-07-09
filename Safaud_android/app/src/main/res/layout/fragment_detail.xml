@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/mysleep"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    <RelativeLayout
+            android:id="@+id/user_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/user_default"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/default_user" />
+
+    </RelativeLayout>
+ <!--        카운터-->
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:baselineAligned="false">
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+             <TextView
+              android:text="@string/day"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+              <TextView
+              android:id="@+id/account_tv_day_count"
+              android:text="@string/count_0"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/account_tv_time_count"
+                    android:text="@string/count_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+          </LinearLayout>
+        <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/sleep_times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/account_tv_sleep_count"
+                    android:text="@string/count_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+         </LinearLayout>
+        <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/awake_times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/account_tv_awake_count"
+                    android:text="@string/count_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+          </LinearLayout>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/account_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

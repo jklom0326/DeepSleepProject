@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/safaudmark"
+            android:layout_marginBottom="150dp"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/todo" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:id="@+id/email_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/idpw_background"
+                android:hint="@string/email" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <EditText
+                android:inputType="textPassword"
+                android:id="@+id/password_edittext"
+                android:layout_width="match_parent"
+                android:background="@drawable/idpw_background"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:hint="@string/password" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+                android:id="@+id/email_login_button"
+                android:text="@string/signin_email"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:background="@drawable/loginbutton_background"
+                android:layout_height="40dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp" />
+
+        <Button
+                android:id="@+id/google_sign_in_button"
+                android:text="@string/google_login"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_signin_google"
+                android:theme="@style/ButtonStyle"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp" />
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/btn_signin_facebook"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

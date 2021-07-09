@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "384394983432",
+    "firebase_url": "https://safaud20.firebaseio.com",
+    "project_id": "safaud20",
+    "storage_bucket": "safaud20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384394983432:android:012d6503c4bf2cb26db9bd",
+        "android_client_info": {
+          "package_name": "com.example.safaud20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384394983432-rugkfc812nsrblsnqvah95l467q4ogqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safaud20",
+            "certificate_hash": "2a0409d7e586a776b359b2aa7d27c1ba341a077b"
+          }
+        },
+        {
+          "client_id": "384394983432-bs06gcietghqea0a3b66e9pl0ojb86v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safaud20",
+            "certificate_hash": "e125fadee3e67aba33e8707b078359a78804a12d"
+          }
+        },
+        {
+          "client_id": "384394983432-7sdfbpjlkbsh5evenpjevf66r2h1o6ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8iWf88k2pawCMfr0zvNl03PGs42uDCOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384394983432-7sdfbpjlkbsh5evenpjevf66r2h1o6ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Safaud 2.0</string>
+    <string name="password"> Password</string>
+    <string name="todo">TODO</string>
+    <string name="email"> Email</string>
+    <string name="signin_email">로그인 및 이메일 등록하기</string>
+    <string name="google_login">구글 로그인 </string>
+    <string name="home">홈</string>
+    <string name="sleep_test">수면검사</string>
+    <string name="induced_sleep">수면유도</string>
+    <string name="statistics">통계</string>
+    <string name="daily">일간</string>
+    <string name="weekly">주간</string>
+    <string name="monthly">월간</string>
+    <string name="day">일</string>
+    <string name="count_0">0</string>
+    <string name="mysleep">나의 수면</string>
+    <string name="time">시간</string>
+    <string name="sleep_times">수면유도</string>
+    <string name="awake_times">기상유도</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_date">Get Date</string>
+    <string name="등록">등록</string>
+    <string name="kess">KESS 앱워스 졸음 척도</string>
+    <string name="psqi_k">PSQI-K 피츠버그 수면의 질 척도</string>
+    <string name="kess_itemlist">단순한 피곤함 과는 다르게 다음의 상황에서 얼마나 깜박 졸거나 혹은 잠들어 버릴 것 같습니까? 이것은 최근의 일상생활을 참고하시기
+    바랍니다. 비록 최근에 이런 상항에 처하지 않았다 하더라도, 그 상황에서 얼마나 영향을 받을지 생각해 보십시오. 각 상황에서 가장 적절한 상황을 선택하시기 바랍니다.</string>
+    <string name="제출">제출</string>
+    <array name="switch_tabs">
+        <item>전혀</item>
+        <item>적음</item>
+        <item>상당히</item>
+        <item>매우 많이</item>
+    </array>
+
+</resources>

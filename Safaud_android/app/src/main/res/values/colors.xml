@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="color_loginbackground">#F5A73E</color>
+    <color name="color_id_pwbackground">#CACFF9</color>
+    <color name="safaudblue">#1A16A1</color>
+    <color name="colorDivision">#e0e0e0</color>
+    <color name="colorgray">#9A9A9A</color>
+</resources>

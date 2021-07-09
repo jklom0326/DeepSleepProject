@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:enabled="true"
+        android:title="@string/home"/>
+    <item
+            android:id="@+id/sleep_test"
+            android:icon="@drawable/workagenda"
+            android:enabled="true"
+            android:title="@string/sleep_test"/>
+    <item
+            android:id="@+id/induced_sleep"
+            android:icon="@drawable/moon"
+            android:enabled="true"
+            android:title="@string/induced_sleep"/>
+    <item
+            android:id="@+id/statistics"
+            android:icon="@drawable/graph"
+            android:enabled="true"
+            android:title="@string/statistics"/>
+
+</menu>
